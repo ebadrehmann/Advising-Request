@@ -4,9 +4,9 @@ Students are having a hard time scheduling appointments with advisors. There’s
 
 ## Authors
 
-- [@ebadrehmann](https://github.com/ebadrehmann)
-- [@bsbhakt2](https://github.com/bsbhakt2)
-- [@dcguerr2](https://github.com/dcguerr2)
-- [@Fatmehfarhoud](https://github.com/Fatmehfarhoud)
-- [@wahpowcom](https://github.com/wahpowcom)
+- [Ebad Rehman](https://github.com/ebadrehmann)
+- [Breanna Bhakta](https://github.com/bsbhakt2)
+- [Diana Guerrero](https://github.com/dcguerr2)
+- [Fatmeh Farhoud](https://github.com/Fatmehfarhoud)
+- [Dana Prakhin](https://github.com/wahpowcom)
 
