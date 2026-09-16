@@ -57,9 +57,100 @@
     <section>
       <h2>Appointment Details</h2>
 
-      <p>
-        The transaction form will be added here in Session 2.
-      </p>
+           <form method="get">
+
+        <!--
+          <fieldset> groups related controls.
+          <legend> gives the group a meaningful name.
+        -->
+        <fieldset>
+
+          <legend>Advising Information</legend>
+          
+          <label for="studentId">Student ID</label>
+          <!--for connect the label to input id-->
+          <input
+            id="studentId"
+            name="studentId"
+            type="text"
+            required
+          >
+          <!-- <br> new line-->
+          <br><br>
+
+          <label for="advisingDate">Advising Date</label>
+
+          <input
+            id="advisingDate"
+            name="advisingDate"
+            type="date"
+            required
+          >
+
+          <br><br>
+
+          <label for="advisorName">Advisor Name</label>
+
+          <select
+            id="advisorName"
+            name="advisorName"
+            required
+          >
+            <option value="">Select an advisor</option>
+            <option value="advisor1">Advisor 1</option>
+            <option value="advisor2">Advisor 2</option>
+            <option value="advisor3">Advisor 3</option>
+            <option value="advisor4">Advisor 4</option>
+          <!--Idk what names you guys want so I just put random stuff-->
+          </select>
+
+          <br><br>
+
+          <label for="gradeStanding">Grade Standing</label>
+
+          <select
+            id="gradeStanding"
+            name="gradeStanding"
+            required
+          >
+            <option value="">What is your grade standing?</option>
+            <option value="freshman">Freshman</option>
+            <option value="sophomore">Sophomore</option>
+            <option value="junior">Junior</option>
+            <option value="senior">Senior</option>
+          </select>
+
+          <br><br>
+
+          <label for="description">Appointment Purpose / Description</label>
+          <br>
+
+          <textarea
+            id="description"
+            name="description"
+            rows="4"
+            cols="45"
+            required
+          ></textarea>
+
+        </fieldset>
+
+        <br>
+
+        <!--
+          type="submit" asks the browser to submit the form.
+
+          Before submission, the browser checks the native constraints.
+          Try:
+          - leaving a required field empty
+          - entering amount = 0
+          - entering amount = 5600
+        -->
+        <button type="submit">
+          Submit Request
+        </button>
+
+      </form>
     </section>
 
   </main>
